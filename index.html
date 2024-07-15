@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/04426535b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav> 
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Nagendra</span></h1>
+                 <li><span>Frontend Developer</span></li>
+                <p>As a dedicated Frontend Developer,I have crafted engaging,<br>
+                     responsive,and accessible web applications using modern<br> 
+                     technologies.My expertise lies in HTML,CSS,and JavaScript,<br>
+                      enabling me to transform designs into seamless user experiences.<br> 
+                      With a keen eye for detail and a passion for web development,<br>
+                      I consistently deliver high-quality code and innovative solutions</p>
+            </div>
+        </div>
+    </div>
+
+
+<!-------------------About----------------- -->
+
+
+    <div id="about">
+        <div class="conatiner">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me.jpg" alt="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        Detail-oriented Web Developer with a passion for responsive design. Skilled in HTML, CSS,
+                        and JavaScript,<br>I excel in collaborative environments, delivering high-quality front-end 
+                        solutions. Seeking a challenging role <br>with a reputable company where I can contribute
+                        my expertise and passion</p>
+                    <div class="tab-title" >
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certification')">certifications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Technologies</span><br>HTML,CSS,JavaScript</li>
+                            <li><span>Frame Work</span><br>React js,Bootstrap</li>
+                            <li><span>Tools</span><br>Git,Github,VS code</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Degree </span><br>Bsc Computer Science from ABM Degree College<br>2020-2023</li>
+                            <li><span>Inter </span><br>MPC from ABM junior College <br> 2018-2020</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certification">
+                        <ul>
+                            <li><span>Web Developer</span><br>Complete Web development in SOLOLERAN Website<br>2024</li>
+                            <li><span>Python Developer </span><br>Complete Python development in SOLOLERAN in Website <br>2024</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------------Projects------------------------> 
+
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>GENERATE RANDOM QUOTES</h2>
+                    <p>Developed a web application to generate random quotes using an 
+                       external API. <br>Implemented responsive design and ensured cross-browser 
+                       compatibility.<br>Improved application performance by optimizing API calls.
+                    </p>
+                    <a href="#">See more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>GOLD-GYM Website Clone</h2>
+                    <p>Created a responsive clone of a gym website.<br> Focused on pixel-perfect 
+                        design and utilized CSS for animations.<br> Worked on improving user interface and 
+                        experience.
+                    </p>
+                    <a href="#">See more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-at"></i>
+                    <h2>E-Commerce</h2>
+                    <p>Create a responsive website of E-Commerce.<br>In this project i used HTML and CSS</p>
+                    <a href="#">See more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------------certifications-------------- -->
+
+
+    <div id="certifications">
+        <div class="container">
+            <h1 class="sub-title">My Certifications</h1>
+            <div class="certification-list">
+                <img src="Certificate.jpg" alt="">
+                <div>
+                    <i class="fa-solid fa-certificate"></i> 
+                    <h2>Web development</h2>
+                    <p>I have Completed Web development Course in SOLOLERAN</p>
+                    
+                </div>
+                
+                <img src="Certificate.jpg" alt="">
+                <div>
+                    <i class="fa-solid fa-certificate"></i>
+                    <h2>Python development</h2>
+                    <p>i have Completed Python development Course in SOLOLERAN</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ---------------------conatct---------------------- -->
+    <div id="contact">
+        <div class="container">
+           <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>nagendraneelam675@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9505811341</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/n.nagendra.7549"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/s_t_y_e_n_/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/nagendra-neelam-418227237/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email " required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+           </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright@2024. Made with by Easy Tutorials</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemue = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemue.style.right ="0";
+        }
+        function closemenu(){
+            sidemue.style.right ="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwI2S0j81pz0PmoBCANh75B1wonDrJsLLwzfq_r7FungJUm_q5DdeI5c0bKfBmIEDHE/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },500)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
